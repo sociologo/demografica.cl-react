@@ -5,8 +5,8 @@ const NotFound = () => {
   return (
     <section>
       <div className="container notfound__container">
-        <h2>Page Not Found</h2>
-        <Link to="/" className='btn'>Go Back Home</Link>
+        <h2>En construcción</h2>
+        <Link to="/" className='btn'>Regresa a Home</Link>
       </div>
     </section>
   )
