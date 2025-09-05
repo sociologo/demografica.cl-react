@@ -13,7 +13,8 @@ const MainHeader = () => {
                En SocioLab, diseñamos soluciones de análisis predictivo y 
                automatización estadística para los desafíos más complejos en sociología, demografía y epidemiología.
                </p>
-               <Link to="/plans" className='btn lg'>Comencemos...</Link>
+               {/* <Link to="/plans" className='btn lg'>Comencemos...</Link> */}
+               <Link to="https://rpubs.com/ccastro/casen2022" className='btn lg'>Comencemos...</Link>
             </div>
             <div className="main__header-right">
                <div className="main__header-circle"></div>
