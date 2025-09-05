@@ -8,8 +8,8 @@ import './about.css'
 const About = () => {
   return (
     <>
-    <Header title="About Us" image={HeaderImage}>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maiores doloribus, eligendi incidunt modi rerum debitis consequatur molestias?
+    <Header title="Christian Castro" image={HeaderImage}>
+    Soy sociólogo de la Universidad de Chile y Analista programador de Inacap.
     </Header>
 
     <section className="about__story">

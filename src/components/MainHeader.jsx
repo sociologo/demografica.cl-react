@@ -8,7 +8,7 @@ const MainHeader = () => {
          <div className="container main__header-container">
             <div className="main__header-left">
                <h4>#sociolab</h4>
-               <h1>Transformamos datos sociales en decisiones inteligentes</h1>
+               <h1>PRUEBA datos sociales en decisiones inteligentes</h1>
                <p>
                En SocioLab, diseñamos soluciones de análisis predictivo y 
                automatización estadística para los desafíos más complejos en sociología, demografía y epidemiología.
