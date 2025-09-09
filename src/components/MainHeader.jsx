@@ -7,7 +7,7 @@ const MainHeader = () => {
       <header className="main__header">
          <div className="container main__header-container">
             <div className="main__header-left">
-               <h4>#sociolab</h4>
+               <h4>info@demografica.cl</h4>
                <h1>PRUEBA datos sociales en decisiones inteligentes</h1>
                <p>
                En SocioLab, diseñamos soluciones de análisis predictivo y 
