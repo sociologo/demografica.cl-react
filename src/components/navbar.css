@@ -1,6 +1,7 @@
 /* Se establecen las caracteristicas de la barra de navegacion superior */
 nav {
-   height: 5rem;
+   height: 10rem;
+   /* height: 5rem; */
    width: 100vw;
    /* background: var(--color-primary); */
    background: var(--color-7);
@@ -18,7 +19,8 @@ nav {
 }
 
 .nav__container {
-   height: 100%;
+      height: 100%;
+   /* height: 100%; */
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -26,7 +28,8 @@ nav {
 }
 
 .logo {
-   width: 7rem;
+   width: 14rem;   
+   /* width: 7rem; */
    display: block;
 }
 
@@ -43,7 +46,10 @@ nav {
    height: 100%;
 }
 
-.nav__links a {
+/* aca va la configuracion de las letras de la barra de navegacion*/
+.nav__links a { 
+   color: #e8f196;              /* 👈 aquí fuerzas el rojo */
+   font-size: 1.3rem;           /* 👈 ajusta este valor para agrandar */
    transition: var(--transition);
    /* This 100% height was added outside tutorial */
    height: 100%;

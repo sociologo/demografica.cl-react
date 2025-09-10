@@ -122,30 +122,50 @@ export const programs = [
 
 
 export const values = [
-    {
-        id: 1,
-        icon: <SiOpenaigym/>,
-        title: "Value One",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-    },
-    {
-        id: 2,
-        icon: <SiOpenaigym/>,
-        title: "Value Two",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-    },
-    {
-        id: 3,
-        icon: <SiOpenaigym/>,
-        title: "Value Three",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-    },
-    {
-        id: 4,
-        icon: <SiOpenaigym/>,
-        title: "Value Four",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-    }
+   {
+      id: 1,
+      icon: <SiOpenaigym/>,
+      title: "1. Manejo de datos (importación, limpieza y transformación)",
+      desc: [
+         "* Lectura de encuestas, censos y bases administrativas (readr, haven, readxl).",
+         "* Limpieza y organización de variables (dplyr, tidyr).",
+         "* Manejo de factores, etiquetas y variables categóricas típicas en ciencias sociales.",
+         "* Principios de reproducibilidad: scripts claros y ordenados."
+      ]
+   },
+   {
+      id: 2,
+      icon: <SiOpenaigym/>,
+      title: "2. Análisis descriptivo y exploratorio",
+      desc: [
+         "* Estadísticas básicas (tablas, medias, medianas, proporciones).",
+         "* Tabulación cruzada (similar a SPSS/Stata pero en R).",
+         "* Visualización clara de desigualdades sociales (ggplot2).",
+         "* Principios de data storytelling para ciencias sociales."
+      ] 
+   },
+   {
+      id: 3,
+      icon: <SiOpenaigym/>,
+      title: "3. Análisis inferencial y modelos estadísticos",
+      desc: [
+         "* Diseños muestrales y encuestas complejas (survey).",
+         "* Regresiones lineales, logísticas y multinomiales aplicadas a fenómenos sociales.",
+         "* Interpretación de coeficientes en lenguaje sustantivo (ej: “el efecto de ser mujer en la probabilidad de tener empleo formal”).",
+         "* Pruebas de hipótesis y intervalos de confianza aplicados a desigualdad, educación, trabajo, etc. "  
+      ] 
+   },
+   {
+      id: 4,
+      icon: <SiOpenaigym/>,
+      title: "4. Reproducibilidad y comunicación de resultados",
+      desc: [
+         "* Scripts dinámicos con R Markdown / Quarto para informes.",
+         "* Integración de tablas de resultados (gt, gtsummary, stargazer).",
+         "* Buenas prácticas para replicar investigaciones.",
+         "* Cómo pasar de un análisis técnico a un producto académico o de política pública."  
+      ] 
+   }
 ]
 
 

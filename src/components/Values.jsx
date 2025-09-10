@@ -10,11 +10,11 @@ const Values = () => {
         <div className="container values__container">
             <div className="values__left">
                 <div className="values__image">
-                    <img src={Image} alt="Values Image" />
+                    <img src={Image} alt="" />
                 </div>
             </div>
             <div className="values__right">
-                <SectionHead icon={<GiCutDiamond/>} title="Values"/>
+                <SectionHead icon={<GiCutDiamond/>} title="Clases de R para científicos sociales"/>
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis quidem aperiam sapiente?
                 </p>
@@ -24,7 +24,13 @@ const Values = () => {
                             return <Card key={id} className="values__value">
                                 <span>{icon}</span>
                                 <h4>{title}</h4>
-                                <small>{desc}</small>
+
+      {Array.isArray(desc) 
+        ? desc.map((paragraph, index) => <p key={index}>{paragraph}</p>) 
+        : <p>{desc}</p>
+      }
+
+                                {/* <small>{desc}</small> */}
                             </Card>
                         })
                     }
