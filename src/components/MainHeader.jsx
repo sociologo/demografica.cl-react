@@ -17,9 +17,9 @@ const MainHeader = () => {
                </a> 
 
 
-               <h1>PRUEBA datos sociales en decisiones inteligentes</h1>
+               <h1>Datos sociales en decisiones inteligentes</h1>
                <p>
-               En SocioLab, diseñamos soluciones de análisis predictivo y 
+               En DEMOGRAFICA, diseñamos soluciones de análisis predictivo y 
                automatización estadística para los desafíos más complejos en sociología, demografía y epidemiología.
                </p>
 

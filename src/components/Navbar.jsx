@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import {Link, NavLink} from 'react-router-dom'
-import Logo from '../images/logo.png'
+
+import Logo from '../images/demografica_logo.png'
+// import Logo from '../images/logo.png'
+
 import {links} from '../data'
 import { FaBars } from "react-icons/fa";
 import {MdOutlineClose} from 'react-icons/md'
