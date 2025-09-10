@@ -9,11 +9,13 @@ const MainHeader = () => {
       <header className="main__header">
          <div className="container main__header-container">
             <div className="main__header-left">
+
                <h4>Escríbenos</h4>
                <a href="mailto:info@demografica.cl" target="_blank" rel="noreferrer noopener" style={{ display: "flex", alignItems: "center", gap: "8px" }}>
                <MdEmail size={28} />
                <span>info@demografica.cl</span>
                </a> 
+
 
                <h1>PRUEBA datos sociales en decisiones inteligentes</h1>
                <p>
