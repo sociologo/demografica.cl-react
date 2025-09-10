@@ -12,21 +12,49 @@
    /* --primary-hue: 20;
    --gray-hue: 280; */
 
-   --primary-hue: 210;
+   --primary-hue: 210; 
+
    --gray-hue: 240;
-   --color-primary: hsl(var(--primary-hue), 100%, 50%);
+
+   /* este es el color del rombo celeste original de la barra de menu */
+   --color-primary:#97B067;
+   /* --color-primary: hsl(var(--primary-hue), 100%, 50%); */
+
+
    --color-primary-variant: hsl(var(--primary-hue), 100%, 65%);
    --color-secondary: #ffb116;
-   --color-3: #287925;
-   --color-4: #eef10f;
-   --color-5: #0d8502;
-   --color-6: #d306a7;
-   --color-7: #ee250a;
+
+
+   --color-3: #2F5249;
+/* --color-3: #287925; */
+
+
+   --color-4: #E3DE61;
+   /* --color-4: #eef10f; */
+
+
+   --color-5: #437057;
+   /* --color-5: #0d8502; */
+
+
+   --color-6: #C8643B;
+   /* --color-6: #d306a7; */
+
+
+   --color-7: #97B067;
+   /* --color-7: #ee250a; */
+
+
+
    --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
    --color-gray-200: hsl(var(--gray-hue), 26%, 75%);
    --color-gray-300: hsl(var(--gray-hue), 24%, 64%);
    --color-gray-400: hsl(var(--gray-hue), 16%, 41%);
-   --color-gray-500: hsl(var(--gray-hue), 44%, 25%);
+
+   --color-gray-500: #97B067;
+   /* --color-gray-500: hsl(var(--gray-hue), 44%, 25%); */
+
+
    --color-gray-600: hsl(var(--gray-hue), 48%, 15%);
 
    --container-width-lg: 80%;
