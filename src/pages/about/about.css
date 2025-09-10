@@ -1,8 +1,23 @@
 .about__section-image {
-   border-radius: 50%;
+
+   border-radius: 0%;
+   /* border-radius: 50%; */
+
    overflow: hidden;
    transform: skew(15deg);
    transition: var(--transition);
+
+   /* centrado del contenido */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.about__section-image img {
+   width: 400px;     /* ajusta el tamaño deseado */
+   height: auto;     /* mantiene proporción */
+   display: block;
 }
 
 .about__section-image:nth-child(2) {
