@@ -6,15 +6,15 @@ export const links = [
         path: '/'
     },
     {
-        name: "Mi currículum",
+        name: "Biografía académica",
         path: '/about'
     },
     {
-        name: "Galería",
+        name: "Visualizaciones - Hallazgos notables",
         path: '/gallery'
     },
     {
-        name: "Planes",
+        name: "Servicios - Consultoría",
         path: '/plans'
     },
     {
@@ -219,9 +219,9 @@ export const faqs = [
 export const testimonials = [
     {
         id: 1,
-        name: "Diana Ayi",
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
-        job: "Student",
+        name: "Antonio Antón La desigualdad social ",
+        quote: "Desigualdad social es un concepto relacional o comparativo. Significa la existencia de distintas oportunidades en el acceso, posesión, control y disfrute de recursos y poder, derivadas de diferentes condiciones, contextos y trayectorias.",
+        job: "La desigualdad social",
         avatar: require("./images/avatar1.jpg")
     },
     {

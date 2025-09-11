@@ -1,10 +1,27 @@
-const Header = ({title, image, children}) => {
+const Header = ({ title, image, bgColor, children }) => {
+// const Header = ({title, image, children}) => { 
    return (
      <header className="header">
          <div className="header__container">
-             <div className="header__container-bg">
+
+
+        <div
+          className="header__container-bg"
+          style={{
+            backgroundColor: bgColor,
+            backgroundImage: image ? `url(${image})` : 'none',
+          }}
+        />
+
+
+{/*              <div className="header__container-bg">
                  <img src={image} alt="Header Background Image" />
-             </div>
+             </div> */}
+
+
+
+
+
              <div className="header__content">
                  <h2>{title}</h2>
                  <p>{children}</p>

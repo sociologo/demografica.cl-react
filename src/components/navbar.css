@@ -31,13 +31,18 @@ nav {
    width: 14rem;   
    /* width: 7rem; */
    display: block;
+   margin-right: 3rem; /* 👈 separa el logo de los links */
 }
 
 .nav__links {
    display: flex;
-   gap: 3.5rem;
+   gap: 2.4rem;
    align-items: center;
+   margin-left: 7rem; /* 👈 empuja todo el grupo de links más a la derecha */
+
    /* this 100% height was added outside tutorial */
+/*    esta es la posicion en vertical donde 
+   se inserta el rombo abajo de cada links */
    height: 100%;
 }
 
