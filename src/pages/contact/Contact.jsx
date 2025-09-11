@@ -6,21 +6,21 @@ import {IoLogoWhatsapp} from 'react-icons/io'
 import './contact.css'
 
 const Contact = () => {
-  return (
-    <>
-    <Header title="Get In Touch" image={HeaderImage}>
-    Fruga itaque ducimus, ad amet praesentium suscipit sit, assumenda nihil officia totam, animi culpa nobis nemo natus doloremque?
-    </Header>
-    <section className="contact">
-      <div className="container contact__container">
-        <div className="contact__wrapper">
-          <a href="mailto:support@egattor.com" target="_blank" rel="noreferrer noopener"><MdEmail/></a>
-          <a href="http://m.me/ernest_achiever" target="_blank" rel="noreferrer noopener"><BsMessenger/></a>
-          <a href="https://wa.me/+123456789" target="_blank" rel="noreferrer noopener"><IoLogoWhatsapp/></a>
-        </div>
-      </div>
-    </section>
-    </>
+   return (
+      <>
+      <Header title="Mantengámosnos en contacto" image={HeaderImage}>
+      Mi trabajo une la investigación social con el análisis de datos y la programación. Si buscas conversar sobre desigualdad, demografía o el desarrollo de herramientas digitales para comprender la realidad social, este es un buen punto de encuentro. Escríbeme y con gusto responderé tu mensaje.
+      </Header>
+      <section className="contact">
+         <div className="container contact__container">
+         <div className="contact__wrapper">
+            <a href="mailto:info@demografica.cl" target="_blank" rel="noreferrer noopener"><MdEmail/></a>
+            <a href="http://m.me/ernest_achiever" target="_blank" rel="noreferrer noopener"><BsMessenger/></a>
+            <a href="https://wa.me/+56975643583" target="_blank" rel="noreferrer noopener"><IoLogoWhatsapp/></a>
+         </div>
+         </div>
+      </section>
+      </>
   )
 }
 

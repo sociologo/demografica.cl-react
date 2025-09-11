@@ -34,10 +34,10 @@ const Footer = () => {
             <article>
                 <h4>Insights</h4>
                 <Link to="/s">Blog</Link>
-                <Link to="/s">Case Studies</Link>
-                <Link to="/s">Events</Link>
-                <Link to="/s">Communities</Link>
-                <Link to="/s">FAQs</Link>
+                <Link to="/s">Casos de estudio</Link>
+                <Link to="/s">Eventos</Link>
+                <Link to="/s">Comunidades</Link>
+                <Link to="/s">Artículos académicos</Link>
             </article>
             <article>
                 <h4>Get In Touch</h4>

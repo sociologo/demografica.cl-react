@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Header from '../../components/Header'
-import HeaderImage from '../../images/header_bg_1.jpg'
+// import HeaderImage from '../../images/header_bg_1.jpg'
 // import StoryImage from '../../images/about1.jpg'
 /* import VisionImage from '../../images/about2.jpg'
 import MissionImage from '../../images/about3.jpg' */
@@ -12,30 +12,30 @@ import './about.css'
 
 const About = () => {
 
-
   const [isEnlarged, setIsEnlarged] = useState(false)
-
-
 
   return (
       <>
-      <Header title="Christian Castro" image={HeaderImage}>
+      <Header title="Christian Castro" bgColor="#9A4A30">
       Soy sociólogo de la Universidad de Chile y Analista programador de Inacap.
       </Header>
+{/*       <Header title="Christian Castro" image={HeaderImage}>
+      Soy sociólogo de la Universidad de Chile y Analista programador de Inacap.
+      </Header> */}
 
-   <section className="about__story">
-        <div className="container about__story-container">
-          <div 
-            className={`about__section-image ${isEnlarged ? 'enlarged' : ''}`}
-            onClick={() => setIsEnlarged(!isEnlarged)}
-          >
-            <img src={Sociologo} alt="mi título" />
-          </div>
-          <div className="about__section-content">
-            <h1>Soy sociólogo</h1>
-            <p>Estudié en la Universidad de Chile.</p>
-          </div>
-        </div>
+      <section className="about__story">
+         <div className="container about__story-container">
+            <div 
+               className={`about__section-image ${isEnlarged ? 'enlarged' : ''}`}
+               onClick={() => setIsEnlarged(!isEnlarged)}
+            >
+               <img src={Sociologo} alt="mi título" />
+            </div>
+            <div className="about__section-content">
+               <h1>Soy sociólogo</h1>
+               <p>Estudié en la Universidad de Chile.</p>
+            </div>
+         </div>
       </section>
 
 
