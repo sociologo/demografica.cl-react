@@ -1,6 +1,7 @@
 
 import {Link} from 'react-router-dom'
-import Image from '../images/main_header.png'
+// import Image from '../images/main_header.png'
+import Image from '../images/main_header2.png'
 
 import { MdEmail } from "react-icons/md";
 
