@@ -21,6 +21,10 @@ export const links = [
         name: "Nuestros mantenedores",
         path: '/trainers'
     },
+   {
+        name: "Censo 2024",
+        path: '/censo'
+    },
     {
         name: "Contacto",
         path: '/contact'

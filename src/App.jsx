@@ -7,6 +7,7 @@ import Home from './pages/home/Home.jsx'
 import NotFound from './pages/notFound/NotFound.jsx'
 import Plans from './pages/plans/Plans.jsx'
 import Trainers from './pages/trainers/Trainers.jsx'
+import Censo from './pages/censo/Censo.jsx'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
@@ -22,6 +23,7 @@ const App = () => {
          <Route path='gallery' element={<Gallery/>}/>
          <Route path='plans' element={<Plans/>}/>
          <Route path='trainers' element={<Trainers/>}/>
+         <Route path='censo' element={<Censo/>}/>
          <Route path='*' element={<NotFound/>}/>
        </Routes>
        <Footer/>
